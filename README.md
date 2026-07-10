@@ -1,143 +1,53 @@
-# 💼 Portafolio Web - Juanita Lorena Herrera
+👩‍💻 Juanita Lorena Herrera Herrera - Portafolio
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![Responsive](https://img.shields.io/badge/Responsive-✔-success?style=for-the-badge)
-![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-black?style=for-the-badge\&logo=github)
+¡Hola! Soy Juanita Herrera, una apasionada del desarrollo web y la tecnología. Me especializo en HTML, CSS, JavaScript y React, con experiencia en el desarrollo de proyectos innovadores. 🚀
 
-## 🌐 Demo
+🌟 Sobre Mí
 
-🔗 **Sitio web:**
-**https://juanitalorenaherrera.github.io/PORTFOLIO-WEB/**
+Después de dedicar dos años al voluntariado, decidí sumergirme en el mundo de la programación. Actualmente, he trabajado en proyectos como:
 
----
+🛡️ CryptoGuard
 
-# 📖 Descripción
+Aplicación de cifrado de texto desarrollada durante el programa ONE de Oracle y Alura.
+🔗 Ver código en GitHub
 
-Este proyecto corresponde a mi portafolio personal como desarrolladora web, donde presento mi perfil profesional, habilidades técnicas, experiencia y algunos de los proyectos que he desarrollado.
+🎲 Juego Secreto
 
-El objetivo del sitio es mostrar mi crecimiento como desarrolladora, facilitar el acceso a mis trabajos y servir como carta de presentación para oportunidades laborales, colaboraciones y proyectos freelance.
+Juego interactivo para adivinar un número secreto.
+🔗 Ver código en GitHub
 
----
+🧠 Juego de Memoria
+Juego interactivo de cartas para entrenar la memoria usando HTML, CSS y JavaScript.
+🔗 Ver código en GitHub
 
-# ✨ Características
+🚑 AmbuAlert
+Plataforma web de emergencias con frontend y backend integrados, diseñada para ofrecer respuestas rápidas y organizadas.
+🔗 Ver código en GitHub
 
-* 🎨 Diseño moderno y atractivo.
-* 📱 Diseño completamente responsive.
-* ⚡ Navegación rápida y fluida.
-* 💼 Sección de proyectos.
-* 👩 Sobre mí.
-* 🛠 Tecnologías y habilidades.
-* 📞 Información de contacto.
-* 🔗 Enlaces a GitHub y redes profesionales.
+🛠️ Habilidades
 
----
+Lenguajes y Tecnologías: HTML, CSS, JavaScript, React, TypeScript, Astro
 
-# 🚀 Tecnologías utilizadas
+Diseño UX/UI: Creación de interfaces intuitivas y funcionales
 
-* HTML5
-* CSS3
-* JavaScript
-* Git
-* GitHub
-* GitHub Pages
+Seguridad Web: Aplicación de prácticas básicas de protección
 
----
+Soft Skills: Trabajo en equipo, creatividad, adaptación al cambio
 
-# 📂 Estructura del proyecto
+📜 Certificaciones
 
-```text
-PORTFOLIO-WEB/
-│
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── img/
-│   └── icons/
-│
-├── index.html
-├── README.md
-└── LICENSE
-```
+🎓 Programador Junior — Oracle Next Education - Alura Latam (2024)
 
----
+🎓 Desarrollo Web y Software — Universidad Sergio Arboleda (2023)
 
-# 🖥️ Instalación
+🎓 Inteligencia Artificial — Universidad Distrital Francisco José de Caldas (2023-2024)
 
-Clona el repositorio:
+🎓 Inglés A1 — British Council (2023)
 
-```bash
-git clone https://github.com/juanitalorenaherrera/PORTFOLIO-WEB.git
-```
+📫 Contacto
 
-Ingresa al proyecto:
+📩 Email: juanitaherrera846@gmail.com
 
-```bash
-cd PORTFOLIO-WEB
-```
+💼 LinkedIn: juanita-herrera
 
-Abre el archivo `index.html` en tu navegador o utiliza la extensión **Live Server** en Visual Studio Code.
-
----
-
-# 📸 Vista previa
-
-El sitio incluye las siguientes secciones:
-
-* Inicio
-* Sobre mí
-* Tecnologías
-* Proyectos
-* Contacto
-
----
-
-# 🎯 Objetivos del proyecto
-
-* Mostrar mis conocimientos como desarrolladora web.
-* Centralizar mis proyectos en un solo lugar.
-* Compartir mi trabajo con empresas y clientes.
-* Mantener un portafolio actualizado.
-
----
-
-# 📈 Próximas mejoras
-
-* [ ] Modo oscuro.
-* [ ] Blog personal.
-* [ ] Traducción al inglés.
-* [ ] Filtros por tecnologías.
-* [ ] Animaciones adicionales.
-* [ ] Formulario de contacto con backend.
-* [ ] Mejoras de accesibilidad y SEO.
-
----
-
-# 🤝 Contribuciones
-
-Si deseas proponer mejoras, puedes realizar un **Fork** del proyecto y enviar un **Pull Request**.
-
-Las sugerencias siempre son bienvenidas.
-
----
-
-# 👩‍💻 Autora
-
-**Juanita Lorena Herrera**
-
-Desarrolladora Web Frontend apasionada por crear experiencias modernas, intuitivas y responsivas.
-
-### Contacto
-
-* GitHub: https://github.com/juanitalorenaherrera
-* Portafolio: https://juanitalorenaherrera.github.io/PORTFOLIO-WEB/
-
----
-
-# ⭐ Si te gustó este proyecto...
-
-No olvides dejar una ⭐ en el repositorio.
-
-¡Gracias por visitar mi portafolio!
-
+🐙 GitHub: juanitalorenaherrera
