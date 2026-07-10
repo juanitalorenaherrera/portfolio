@@ -8,167 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        /* Estilos para el reproductor de música personalizado con Lista */
-        .music-player {
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            z-index: 2000;
-            background: rgba(17, 17, 17, 0.9);
-            backdrop-filter: blur(15px);
-            border: 1px solid var(--border);
-            padding: 1rem;
-            border-radius: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            width: 300px;
-        }
-
-        .music-player:hover {
-            border-color: var(--accent);
-            transform: translateY(-5px);
-        }
-
-        .player-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-        }
-
-        .music-controls {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .music-btn {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--primary);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s;
-            font-size: 0.8rem;
-        }
-
-        .music-btn:hover {
-            background: var(--border);
-            border-color: var(--primary);
-        }
-
-        .music-btn.play-pause {
-            width: 40px;
-            height: 40px;
-            background: var(--accent);
-            border: none;
-            color: white;
-            font-size: 1rem;
-        }
-
-        .music-info {
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            flex-grow: 1;
-        }
-
-        .track-name {
-            font-size: 0.75rem;
-            color: var(--primary);
-            font-weight: 700;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .track-artist {
-            font-size: 0.65rem;
-            color: var(--secondary);
-        }
-
-        /* Lista de canciones */
-        .playlist-container {
-            border-top: 1px solid var(--border);
-            padding-top: 0.8rem;
-            max-height: 250px;
-            overflow-y: auto;
-        }
-
-        .playlist-item {
-            padding: 0.5rem;
-            border-radius: 8px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.2s;
-            font-size: 0.7rem;
-            color: var(--secondary);
-        }
-
-        .playlist-item:hover {
-            background: rgba(255, 255, 255, 0.05);
-            color: var(--primary);
-        }
-
-        .playlist-item.active {
-            background: rgba(255, 71, 71, 0.1);
-            color: var(--accent);
-            font-weight: 600;
-        }
-
-        .playlist-item i {
-            font-size: 0.6rem;
-            opacity: 0;
-        }
-
-        .playlist-item.active i {
-            opacity: 1;
-        }
-
-        /* Scrollbar personalizado */
-        .playlist-container::-webkit-scrollbar {
-            width: 4px;
-        }
-        .playlist-container::-webkit-scrollbar-thumb {
-            background: var(--border);
-            border-radius: 10px;
-        }
-
-        .music-waves {
-            display: flex;
-            align-items: flex-end;
-            gap: 2px;
-            height: 12px;
-        }
-
-        .wave {
-            width: 2px;
-            background: var(--accent);
-            border-radius: 2px;
-            animation: wave-anim 1s ease-in-out infinite;
-        }
-
-        .wave:nth-child(2) { animation-delay: 0.2s; height: 100%; }
-        .wave:nth-child(3) { animation-delay: 0.4s; height: 60%; }
-
-        @keyframes wave-anim {
-            0%, 100% { height: 4px; }
-            50% { height: 12px; }
-        }
-
-        .music-player.paused .wave {
-            animation-play-state: paused;
-            height: 2px;
-        }
+      
 
         :root {
             --bg-black: #0a0a0a;
@@ -557,6 +397,7 @@
             <nav>
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#experiencia">Experiencia</a></li>
                     <li><a href="#proyectos">Proyectos</a></li>
                     <li><a href="#sobre-mi">Sobre mí</a></li>
                     <li><a href="#skills">Habilidades</a></li>
@@ -604,7 +445,6 @@
         </div>
     </section>
 
-
     <section id="experiencia" class="section">
         <div class="container">
             <div class="section-header">
@@ -615,19 +455,19 @@
             <div class="projects-grid">
                 <div class="project-card">
                     <div class="project-meta"><span>2026</span><span>Trabajo Profesional</span></div>
-                    <h3 class="project-title">Kronosoft</h3>
+                    <h3 class="project-title" style="font-size: 2rem; font-weight: 800; letter-spacing: 0.08em; color: var(--primary);">KRONOSOFT</h3>
                     <p class="project-desc">
-                        Desarrollo de una presencia web profesional para la empresa Kronosoft, enfocada en mostrar sus servicios, reforzar su identidad digital y mejorar la experiencia del usuario.
+                        Trabajo en Kronosoft en tareas de captación de clientes, apoyo en el área administrativa, desarrollo Frontend y diseño, contribuyendo a la presencia digital y al crecimiento de la empresa.
                     </p>
                     <div class="project-tags">
-                        <span class="tag">Frontend</span><span class="tag">React</span><span class="tag">UI/UX</span>
+                        <span class="tag">Captación de clientes</span><span class="tag">Administración</span><span class="tag">Frontend</span><span class="tag">Diseño</span>
                     </div>
                     <a href="https://kronosoft.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link">VER DEMO <i class="fas fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
     </section>
-    
+
     <section id="proyectos" class="section">
         <div class="container">
             <div class="section-header">
@@ -701,7 +541,7 @@
                     <a href="https://juego-de-memoria-theta.vercel.app/" target="_blank" class="project-link">VER DEMO <i class="fas fa-arrow-up-right-from-square"></i></a>
                 </div>
 
-               <!-- Proyecto 7: Sonterry Serigrafía -->
+                <!-- Proyecto 7: Sonterry Serigrafía -->
                 <div class="project-card sonterry-card">
                     <div class="project-meta"><span>2026</span><span>Colaborativo</span></div>
                     <h3 class="project-title">SONTERRY SERIGRAFÍA</h3>
@@ -721,7 +561,7 @@
             </div>
         </div>
     </section>
-                
+
     <section id="skills" class="section">
         <div class="container">
             <div class="section-header">
@@ -839,3 +679,4 @@
     </footer>
 </body>
 </html>
+
